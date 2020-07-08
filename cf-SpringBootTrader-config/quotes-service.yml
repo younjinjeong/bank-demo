@@ -1,0 +1,9 @@
+spring:
+  application:
+     name: quotes-service
+pivotal:
+  quotes:
+    quote_url: https://cloud.iexapis.com/v1/stock/{symbol}/quote/?token=sk_a66da9dad6114f43b94f53d5d19cf927
+    quotes_url: https://cloud.iexapis.com/v1/stock/market/batch?symbols={symbols}&types=quote&token=sk_a66da9dad6114f43b94f53d5d19cf927
+    companies_url: https://cloud.iexapis.com/v1/stock/{symbol}/company/?token=sk_a66da9dad6114f43b94f53d5d19cf927
+
